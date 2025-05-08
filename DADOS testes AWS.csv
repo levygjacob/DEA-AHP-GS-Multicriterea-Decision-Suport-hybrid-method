@@ -1,0 +1,12 @@
+﻿Config (DMUs);V.M Amount (WorldPress);Test Time (min);ramp up;Users;%95 (ms); Cost
+Locust t3.small - DB t3.small - VM 2t3.small;2;3.2;10;50;8100;0.08
+Locust t3.small - DB t3.small - VM 3t3.small;3;3.3;10;50;6400;0.1
+Locust t3.medium- DB t3.medium- VM 2t3.medium;2;3.4;10;50;8200;0.17
+Locust t3.large - DB t3.large- VM 3t3.large;3;3.5;10;50;3600;0.42
+Locust t3.large - DB t3.large- VM 3t3.large r20;3;3.6;20;100;13000;0.42
+Locust t3.large - DB t3.large- VM 3t3.large r25;3;3.7;25;125;11000;0.42
+Locust t3.large - DB t3.medium- VM 4t3.large;4;3.8;10;50;3800;0.46
+Locust t3.large - DB t3.medium- VM 4t3.large r20;4;3.9;20;100;7600;0.46
+Locust t3.large - DB t3.medium- VM 2t3.xlarge;2;3.10;10;50;2300;0.46
+Locust t3.large - DB t3.medium- VM 2t3.xlarger20;2;3.11;20;100;4500;0.46
+Locust t3.large - DB t3.medium- VM 2t3.xlarge r25;2;3.12;25;125;9000;0.46
